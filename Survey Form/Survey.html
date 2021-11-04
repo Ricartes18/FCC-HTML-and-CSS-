@@ -1,0 +1,55 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link rel="stylesheet" href="style.css">
+  <h1 id="title">Job Application</h1>
+
+  <p id="description">this is a job application for some work</p>
+
+ <form id="survey-form">
+   <div>
+    <label id="name-label" for="name">Name</label>
+    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+   </div>
+   <div>
+    <label id="email-label" for="email">Email</label>
+    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+   </div>
+   <div>
+    <label id="number-label" for="number">Age</label>
+    <input type="number" name="number" id="number" class="form-control" min="10" max="99" placeholder="10" required>
+   </div>
+   <div>
+    <label id="skill-label" for="skill">Skill</label>
+    <select id="dropdown" class="form-control" required>
+      <option disabled selected value> Select skill</option>
+      <option value"Cooking">Cooking</option>
+      <option value"Cleaning">Cleaning</option>
+      <option value"Washing">Washing</option>
+      <option value"Folding">Folding</option> </select>
+   </div>
+     
+   <div>
+      <p>Availability</p>
+     <label><input name="avail" type="Radio" value="Monday-Friday"> Monday - Friday</label> 
+     <label><input name="avail" type="Radio" value="Weekends"> Weekends</label> 
+     <label><input name="avail" type="Radio" value="everyday"> Everyday</label> 
+   </div>
+   <div>
+     <p>Are you willing to work on Holidays?</p>
+     <label> <input name="work" type="checkbox" value="yes">Yes</label>
+     <label> <input name="work" type="checkbox" value="no">No</label>
+     <label> <input name="work" type="checkbox" value="depends">It Depends</label>
+   </div>
+   <div>
+     <p>Any Comments?</p>
+     <textarea></textarea>
+   </div>
+   <div>
+     <input id="submit" type="submit">
+ </form>
+
+<!-- 
+
+Credits to iVuDang and FCC for some of the step by step information which helped me in creating this
+
+-->
