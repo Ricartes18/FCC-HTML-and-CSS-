@@ -1,0 +1,26 @@
+body {
+    background-color: lightgreen;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  h1  {
+    text-align: center;
+  }
+  
+  #img-caption {
+    width: 34%;
+    margin: 0 auto;
+  }
+  
+  #image {
+    max-width: 100%;
+    display: block;
+    height: auto; 
+    margin: 0 auto;
+  }
+  
+  ul {
+    text-align: center;
+    display: inline-block;
+  }
